@@ -70,7 +70,17 @@
 	</div>
 
 	<div class="subnav">
-		<script type="text/javascript" src="left_sidebar.js"></script>
+		<h1>Site Map</h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="profile.html">Profile</a></li>
+			<li><a href="project.html">Projects</a></li>
+			<li><a href="fun.html">Fun</a></li>
+			<li><a href="./album/album.html" target="_blank">Images</a></li>
+			<li><a href="ubuntu.html">Ubuntu stuff</a></li>
+			<li><a href="miscellaneous.html">Miscellaneous</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
 	</div>
 	
 	<div class="main">
