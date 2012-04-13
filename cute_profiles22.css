@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.cute_profiles_sprite{
+clear:both;
+position:fixed;
+border:0;
+margin:0;
+padding:0;
+}
+div.cute_profiles_sprite a{background:url(../images/cute_profiles_sprite22.png) no-repeat 0 0;display:block;width:24px;height:24px;padding:0;margin:0 0 4px 0;}
+div.cute_profiles_sprite a.cute_profiles_contact{background-position:0 0;}
+div.cute_profiles_sprite a.cute_profiles_contact:hover{background-position:0 -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_twitter{background-position:-24px 0;}
+div.cute_profiles_sprite a.cute_profiles_twitter:hover{background-position:-24px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_facebook{background-position:-48px 0;}
+div.cute_profiles_sprite a.cute_profiles_facebook:hover{background-position:-48px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_stumble{background-position:-72px 0;}
+div.cute_profiles_sprite a.cute_profiles_stumble:hover{background-position:-72px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_mixx{background-position:-96px 0;}
+div.cute_profiles_sprite a.cute_profiles_mixx:hover{background-position:-96px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_google{background-position:-120px 0;}
+div.cute_profiles_sprite a.cute_profiles_google:hover{background-position:-120px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_reddit{background-position:-144px 0;}
+div.cute_profiles_sprite a.cute_profiles_reddit:hover{background-position:-144px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_digg{background-position:-168px 0;}
+div.cute_profiles_sprite a.cute_profiles_digg:hover{background-position:-168px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_youtube{background-position:-192px 0;}
+div.cute_profiles_sprite a.cute_profiles_youtube:hover{background-position:-192px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_linkedin{background-position:-216px 0;}
+div.cute_profiles_sprite a.cute_profiles_linkedin:hover{background-position:-216px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_rss{background-position:-240px 0;}
+div.cute_profiles_sprite a.cute_profiles_rss:hover{background-position:-240px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_skype{background-position:-264px 0;}
+div.cute_profiles_sprite a.cute_profiles_skype:hover{background-position:-264px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_newsvine{background-position:-288px 0;}
+div.cute_profiles_sprite a.cute_profiles_newsvine:hover{background-position:-288px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_ff{background-position:-312px 0;}
+div.cute_profiles_sprite a.cute_profiles_ff:hover{background-position:-312px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_technorati{background-position:-336px 0;}
+div.cute_profiles_sprite a.cute_profiles_technorati:hover{background-position:-336px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_yahoo{background-position:-360px 0;}
+div.cute_profiles_sprite a.cute_profiles_yahoo:hover{background-position:-360px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_delicious{background-position:-384px 0;}
+div.cute_profiles_sprite a.cute_profiles_delicious:hover{background-position:-384px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_myspace{background-position:-408px 0;}
+div.cute_profiles_sprite a.cute_profiles_myspace:hover{background-position:-408px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_flickr{background-position:-432px 0;}
+div.cute_profiles_sprite a.cute_profiles_flickr:hover{background-position:-432px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_netvibes{background-position:-456px 0;}
+div.cute_profiles_sprite a.cute_profiles_netvibes:hover{background-position:-456px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_tumblr{background-position:-480px 0;}
+div.cute_profiles_sprite a.cute_profiles_tumblr:hover{background-position:-480px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_bebo{background-position:-504px 0;}
+div.cute_profiles_sprite a.cute_profiles_bebo:hover{background-position:-504px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_windows{background-position:-528px 0;}
+div.cute_profiles_sprite a.cute_profiles_windows:hover{background-position:-528px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_buzz{background-position:-552px 0;}
+div.cute_profiles_sprite a.cute_profiles_buzz:hover{background-position:-552px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_wp{background-position:-576px 0;}
+div.cute_profiles_sprite a.cute_profiles_wp:hover{background-position:-576px -24px;}
+
+/*set 2*/
+div.cute_profiles_sprite a.cute_profiles_xing{background-position:-600px 0;}
+div.cute_profiles_sprite a.cute_profiles_xing:hover{background-position:-600px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_lastfm{background-position:-624px 0;}
+div.cute_profiles_sprite a.cute_profiles_lastfm:hover{background-position:-624px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_vimeo{background-position:-648px 0;}
+div.cute_profiles_sprite a.cute_profiles_vimeo:hover{background-position:-648px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_yelp{background-position:-672px 0;}
+div.cute_profiles_sprite a.cute_profiles_yelp:hover{background-position:-672px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_podcast{background-position:-696px 0;}
+div.cute_profiles_sprite a.cute_profiles_podcast:hover{background-position:-696px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_slideshare{background-position:-720px 0;}
+div.cute_profiles_sprite a.cute_profiles_slideshare:hover{background-position:-720px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_plurk{background-position:-744px 0;}
+div.cute_profiles_sprite a.cute_profiles_plurk:hover{background-position:-744px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_mobileme{background-position:-768px 0;}
+div.cute_profiles_sprite a.cute_profiles_mobileme:hover{background-position:-768px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_viddler{background-position:-792px 0;}
+div.cute_profiles_sprite a.cute_profiles_viddler:hover{background-position:-792px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_dopplr{background-position:-816px 0;}
+div.cute_profiles_sprite a.cute_profiles_dopplr:hover{background-position:-816px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_qype{background-position:-840px 0;}
+div.cute_profiles_sprite a.cute_profiles_qype:hover{background-position:-840px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_virb{background-position:-864px 0;}
+div.cute_profiles_sprite a.cute_profiles_virb:hover{background-position:-864px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_evernote{background-position:-888px 0;}
+div.cute_profiles_sprite a.cute_profiles_evernote:hover{background-position:-888px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_ilike{background-position:-912px 0;}
+div.cute_profiles_sprite a.cute_profiles_ilike:hover{background-position:-912px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_aim{background-position:-936px 0;}
+div.cute_profiles_sprite a.cute_profiles_aim:hover{background-position:-936px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_mister-wong{background-position:-960px 0;}
+div.cute_profiles_sprite a.cute_profiles_mister-wong:hover{background-position:-960px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_webnews{background-position:-984px 0;}
+div.cute_profiles_sprite a.cute_profiles_webnews:hover{background-position:-984px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_yigg{background-position:-1008px 0;}
+div.cute_profiles_sprite a.cute_profiles_yigg:hover{background-position:-1008px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_wikio{background-position:-1032px 0;}
+div.cute_profiles_sprite a.cute_profiles_wikio:hover{background-position:-1032px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_t3n{background-position:-1056px 0;}
+div.cute_profiles_sprite a.cute_profiles_t3n:hover{background-position:-1056px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_infopirate{background-position:-1080px 0;}
+div.cute_profiles_sprite a.cute_profiles_infopirate:hover{background-position:-1080px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_hyves{background-position:-1104px 0;}
+div.cute_profiles_sprite a.cute_profiles_hyves:hover{background-position:-1104px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_dailybooth{background-position:-1128px 0;}
+div.cute_profiles_sprite a.cute_profiles_dailybooth:hover{background-position:-1128px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_identi{background-position:-1152px 0;}
+div.cute_profiles_sprite a.cute_profiles_identi:hover{background-position:-1152px -24px;}
+
+div.cute_profiles_sprite a.cute_profiles_thesixtyone{background-position:-1176px 0;}
+div.cute_profiles_sprite a.cute_profiles_thesixtyone:hover{background-position:-1176px -24px;}
