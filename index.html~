@@ -8,53 +8,38 @@
 	<meta name="keywords" content="keywords"/> 
 	<meta name="author" content="author"/> 
 	<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
-	<link rel="stylesheet" type="text/css" href="cute_profiles22.css" media="screen"/>
 	<title>Rahul Jain | Home</title>
 </head>
 
 <body>
 
 	<div class="container">
-		<script type="text/javascript" src="header.js"></script>
+		<div class='header'> </div>
+		
 		<div class="main_right" >
-			<div align='center'><img src="img/3.jpg" width='90%'  align='center' border='1'></div><br><br>
+			<div align='center'><img src="img/3.jpg" width='90%'  align='center' ></div><br>
 			<script type="text/javascript" src="right_sidebar.js"></script>	
 		</div>
+		
 		<div class="subnav">
 			<script type="text/javascript" src="left_sidebar.js"></script>
 		</div>
+		
 		<div class="main">
 			<div class="padded">
-			<table  width=100% CELLSPACING=0>
-				<tr><th align=center bgcolor=#DDD> <hr>About me:- </th></tr>
-				<tr><td bgcolor=#EEE>	
-					<p>Hi,<br>
-			&nbsp;&nbsp;&nbsp;I am Rahul Jain, currently a IIIrd year undergraduate in Computer Engineering at Institute of Technology, Banaras Hindu University.</p>
-			<p>Welcome to my personal website. I maintain this website to use it as a platform to express myself and share my work with everyone.  </p>
-				</td></tr>	
-				
-				<tr><td bgcolor=#DDD>	
-					<p><br>Without knowing what I am and why I am here, life is impossible </p>
-				</td></tr>
-				<tr><td bgcolor=#DDD align=right>	
-					<p><b>-Leo Tolstoy</b></p>
-				</td></tr>
-				<tr><td bgcolor=#EEE>	
-					<p><br>The deep root of failure in our lives is to think, 'Oh how useless and powerless I am.' It is essential to think strongly and forcefully, 'I can do it,' without boasting or fretting.</p>
-				</td></tr>
-				<tr><td bgcolor=#EEE align=right>	
-					<p><b>-Tenzin Gyatso</b></p>
-				</td></tr>
-			</table>
-			
-			
-	    </div>
+				<table  width=100% CELLSPACING=3>
+					<tr><th align=center bgcolor=#BBB> ABOUT ME:- </th></tr>
+					<tr><td bgcolor=#EEE><p><i>Hi, I am RAHUL JAIN, computer science and 						engineering masters' student at Institute of Technology, Banaras Hindu University. 						<br><br>Welcome to my personal website. I maintain this website to use it as a platform to 						express myself and share my work with everyone.</i> </p><br><br><hr><hr>
+					</td></tr>				
+				</table>
+			</div>
+		</div>
+		
+		<div class="clearer"><span></span></div>
+		
+		<div class="footer">
+			<script type="text/javascript" src="footer.js"></script>
+		</div>
 	</div>
-	
-	<div class="clearer"><span></span></div>
-	<div class="footer">
-		<script type="text/javascript" src="footer.js"></script>
-	</div>
-</div>
 </body>
 </html>

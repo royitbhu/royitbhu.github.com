@@ -16,7 +16,7 @@
 	<div class="container">
 		<script type="text/javascript" src="header.js"></script>
 		<div class="main_right" >
-			<div align='center'><img src="img/1.jpg" width='90%'  align='center' ></div><br><br>
+			<div align='center'><img src="img/1.jpg" width='90%'  align='center' border='1'></div><br><br>
 			<script type="text/javascript" src="right_sidebar.js"></script>	
 		</div>
 		<div class="subnav">

@@ -25,10 +25,15 @@ body {
 	margin: 3% 0;
 }
 
-p,ul {
+p{
 	padding-bottom: 1em;
+	padding-left: 1em;
+	text-indent: 3em;
 }
-
+ul {
+	padding-bottom: 1em;
+	padding-left: 1em;
+}
 ul {margin-left: 1.2em;}
 
 li {list-style: circle;}
@@ -62,19 +67,16 @@ h1,h2,h3 {color: #994;}
 .container {
 	font-size: 1.2em;
 	background: url(img/bgcontainer.gif) repeat-y;
+	background-size: 100%;
 	margin: 0 auto;
-	width: 840px;
+	width: 80%;
 	border: 12px solid #222;
 }
 
 /* header */
 .header {
 	float: left;
-	width: 640px;
-	background: url(img/header.jpg) no-repeat;
-	font: normal 3.4em Georgia,Georgia;
-	line-height: 150px;
-	text-align: center;	
+	width: 80%;
 }
 
 /* structure */
@@ -85,19 +87,19 @@ h1,h2,h3 {color: #994;}
 	font: normal 1.4em Georgia;
 	height: 50px;
 	text-align: center;
-	width: 639px;
+	width: 95%;
 }
 .subnav {
 	float: left;
-	width: 160px;
+	width: 15%;
 }
 .main {
 	float: left;
-	width: 480px;
+	width: 65%;
 }
 .main_right {
 	float: right;
-	width: 200px;
+	width: 20%;
 	color: #CCC;
 	
 }
@@ -120,7 +122,7 @@ h1,h2,h3 {color: #994;}
 	color: #111;
 	display: block;
 	padding: 8px 0 8px 12px;
-	width: 148px;
+	width: 100%;
 	text-decoration: none;
 }
 .subnav li a:hover {
