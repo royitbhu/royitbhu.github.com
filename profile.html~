@@ -15,30 +15,37 @@
 
 	<div class="container">
 		<script type="text/javascript" src="header.js"></script>
+		
 		<div class="main_right" >
 			<div align='center'><img src="img/8.jpg" width='90%'  align='center'border='2' ></div><br>
 			<script type="text/javascript" src="right_sidebar.js"></script>	
 		</div>
+		
 		<div class="subnav">
 			<script type="text/javascript" src="left_sidebar.js"></script>
 		</div>
+		
 		<div class="main">
 			<div class="padded">
 			
-			<table  width=95% CELLSPACING=5>
+			Name : Rahul Jain<br>
+			Occupation : computer science and engineering masters' student at <a href="www.itbhu.ac.in" target="_blank">IT-BHU</a> <br>Location : Varanasi , India	<br><br>
+			<table  width=100% CELLSPACING=5 CELLPADDING=5>
 				<tr><th align=center bgcolor=#BBB> EDUCATION :- </th></tr>
 				<tr><td bgcolor=#EEE>	
-					<b>B.Tech(Computer Science & Engineering)</b><br>
+					<b>Bachelor and Master in Technology</b><br>
 
-					2007-2011 ( Current CGPA 7.70 )<br>
-					Institute of Technology, Banaras Hindu University,Varanasi<br><br>
+					Computer Science & Engineering (2007-2012) <br>
+					<a href="www.itbhu.ac.in" target="_blank">Institute of Technology, Banaras Hindu University,Varanasi</a><br><br>
 
-					<b>Class 12th, Rajasthan Board (RBSE)</b><br>
-					2006 ( Aggregate 89.69% )<br>
-					M.B.V.B.Sr.Sec.School Talwandi, Kota(Raj.)<br><br>
+					<b>Intermediate </b><br>
+					Rajasthan Board (RBSE)<br> 
+					2004-2006<br>
+					<a href="http://maabharti.edu.in/" target="_blank">M.B.V.B.Sr.Sec.School Talwandi, Kota(Raj.)</a><br><br>
 
-					<b>Class 10th, Rajasthan Board (RBSE)</b><br>
-					2004 ( Aggregate 88.50 )<br>
+					<b>High School</b><br>
+					 Rajasthan Board (RBSE)<br>
+					 2002-2004 ( Aggregate 88.50 )<br>
 					A.V.M.Rajakhera Dholpur(Raj.)<br><br>
 				</td></tr>	
 			</table>
@@ -47,17 +54,16 @@
 				<tr><th align=center bgcolor=#BBB> COMPUTER SKILL :-</th></tr>
 				</table>
 				<table>
-				<tr><td bgcolor=#EEE>	
+				<tr><td bgcolor=#FFF>	
 					<b>Languages         : </b><br>  
 					<b>OS         :</b> <br>
 					<b>Web Designing   : </b><br>
-					<b>App. Software: </b><br>
 					<b>Scripting Languages :</b> <br>
 					<b>Server Side Script: </b><br>
 					<b>Database : </b><br>
 					</td>
-					<td>C, C++, Java (J2SE)(Basic) <br>Linux (Ubuntu), Microsoft Windows <br>HTML,CSS,XML <br>NetBeans IDE , RSA ,Eclipse IDE ,Dreamweaver <br>
-					JavaScript (Basic), Shell script <br>PHP , JSP (Java Server Pages) ,AJAX <br>MySQL , DB2
+					<td bgcolor=#FFF>C, C++, Java <br>Linux (Ubuntu), Microsoft Windows <br>HTML,CSS,XML <br>
+					JavaScript , Shell script <br>PHP , JSP (Java Server Pages) ,AJAX <br>MySQL , DB2
 					</td>
 				</tr>	
 			</table>
@@ -66,7 +72,7 @@
 				<tr><th align=center bgcolor=#BBB> SCHOLASTIC ACHIEVEMENTS : :- </th></tr>
 				<tr><td bgcolor=#EEE>	
 					<ul>
-						<li>Qualified the Highly prestigious IIT-JEE Entrance Exam 2007, Rank – 2551.</li>
+						<li>Qualified the Highly prestigious IIT-JEE Entrance Exam 2007, Rank Â– 2551.</li>
 						<li>Secured 1st position in class XII in MBVB Sr. Sec. School,2006.</li>
 						<li>Received the Merit cum Means Scholarship for session 2007-08 and 2008-09.</li>
 						<li>Secured 2nd position in MATHMANIA ( A programming contest held by ACM CHAPTER ITBHU).</li>
