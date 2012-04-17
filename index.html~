@@ -33,20 +33,20 @@
 					</td></tr>				
 				</table>
 			</div>
-			<div width=80% class="padded" >
+			<div  >
 				<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 				<script>
 				new TWTR.Widget({
 				  version: 2,
 				  type: 'profile',
-				  rpp: 4,
+				  rpp: 8,
 				  interval: 30000,
 				  width: 'auto',
 				  height: 300,
 				  theme: {
 				    shell: {
-				      background: '#f7f7f7',
-				      color: '#323232'
+				      background: '#323232',
+				      color: '#eeeeee'
 				    },
 				    tweets: {
 				      background: '#eeeeee',
