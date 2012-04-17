@@ -15,85 +15,53 @@
 
 	<div class="container">
 		<script type="text/javascript" src="header.js"></script>
+		
 		<div class="main_right" >
-			<div align='center'><img src="img/5.jpg" width='90%'  align='center' border='1'></div><br><br>
+			<div align='center'><img src="img/5.jpg" width='90%'  align='center' border='1'></div><br>
 			<script type="text/javascript" src="right_sidebar.js"></script>	
 		</div>
+		
 		<div class="subnav">
 			<script type="text/javascript" src="left_sidebar.js"></script>
 		</div>
+		
 		<div class="main">
-			<div class="padded">
 			
-			<table  width=100% CELLSPACING=5>
-				<tr><td bgcolor=#DDD>	
-					<br><b>1 .<a href="http://anerdsblog.wordpress.com/" target="_blank">Install libgraph library in GCC (Graphics.h)</a></u></b><br>
-					<ul>
-						<li><p>1.Install the following in Synaptic Package Manager<br>&nbsp;&nbsp;&nbsp; libsdl-image1.2 <br>&nbsp;&nbsp;&nbsp; libsdl-image1.2-dev <br> &nbsp;&nbsp;&nbsp; guile-1.8 , <br> &nbsp;&nbsp;&nbsp; guile-1.8-dev</p></li>
-						<li><p> 2. Download and install <a href="http://download.savannah.nongnu.org/releases/libgraph/libgraph-1.0.1.tar.gz" target="_blank">libgraph</a>  using:<br>&nbsp;&nbsp;&nbsp;  ./configure<br>&nbsp;&nbsp;&nbsp;  sudo make<br>&nbsp;&nbsp;&nbsp;  sudo make install<br><hr><hr></p></li>
-					</ul>
-				</td></tr>	
-				
-				<tr><td bgcolor=#EEE>	
-					<b>2 .<u>Install LAMP in a single command </u>: </u></b><br>
-					<ul>
-						
-						<p><u>COMMAND</u>: sudo  apt-get install apache2 php5 libapache2-mod-php5 mysql-server php5-mysql<br><hr><hr></p>
-					</ul>
-				</td></tr>	
-				<tr><td bgcolor=#DDD>	
-					<b>3 .<u><a href="http://opencheese.com/2009/05/08/ubuntu-how-to-unrar-rar-files-with-ubuntu">Ubuntu- How to unrar rar files with ubuntu</a> </u>: </u></b><br>
-					<ul>
-						<li>you need to install the package unrar : </li>
-						<p><u>COMMAND</u>: sudo apt-get install unrar-free</p>
-						<li>for a non-free option, you can use:</li>
-						<p><u>COMMAND</u>: sudo apt-get install unrar-free<br><hr><hr></p>
-					</ul>
+			<div class="padded">
+				<table   cellpadding="25">
+					<tr><th align=center bgcolor=#CCC>Some Important stuffs for Linux Geeks</th></tr>
+					<tr><td bgcolor=#EEE>1 .Install libgraph library in GCC (Graphics.h)
+						<p>Step #1.Install the following in Synaptic Package Manager</p>
+						<ol>
+							<li>libsdl-image1.2</li>
+							<li>libsdl-image1.2-dev</li>
+							<li>guile-1.8</li>
+							<li>guile-1.8-dev</li>
+						</ol>
+						<p>Step #2. Download and install <a href="http://download.savannah.nongnu.org/releases/libgraph/libgraph-1.0.1.tar.gz" target="_blank">libgraph</a> then
+						<ol>
+							<li>./configure</li>
+							<li>sudo make</li>
+							<li>sudo make install<br><br></li>
+						</ol>								
+					</td></tr>	
+					<tr><td bgcolor=#FFF><br>	
+						2. Install LAMP (Linux-Apache-Mysql-PHP) in a single command 
+						<ol>
+							<li>sudo  apt-get install apache2 php5 libapache2-mod-php5 mysql-server php5-mysql<br><br></li>
+						</ol>
+					</td></tr>
+					<tr><td bgcolor=#EEE>	
+						3 .<u>Some of the things to do immediately after installing ubuntu on your machine:</b><br>
+						<ol>
+							<li>Linux DC++ Client : sudo apt-get install linuxdcpp</li>
+							<li>Adobe Acrobat Reade :sudo aptitude install acroread acroread-plugins acroread-escrip</li>
+							<li>Macromedia Flash : sudo apt-get install flashplugin-nonfree</li>
+							<li>Acroread plugin for firefox : sudo aptitude install mozilla-acroread</li>
+							<li>Installing Sun Java JRE :sudo aptitude install sun-java6-jre sun-java6-plugin sun-java6-fonts</li>
+						</ol>
 				</td></tr>
-				<tr><td bgcolor=#EEE>	
-					<b>4 .<u><a href="http://linuxondesktop.blogspot.com/2007/02/13-things-to-do-immediately-after.html">some of the things to do immediately after installing ubuntu on your machine</a></u>:</b><br>
-					<ul>
-						<li>Linux DC++ Client :</li>
-						<p><u>COMMAND</u>: sudo apt-get install linuxdcpp<br></p>
-						<li>Adobe Acrobat Reade :</li>
-						<p><u>COMMAND</u>: sudo aptitude install acroread acroread-plugins acroread-escrip<br></p>
-						<li>Macromedia Flash support and Sun Java JRE :</li>
-						<p><u>COMMAND</u>: sudo apt-get install flashplugin-nonfree<br></p>
-						<li>Acroread plugin for firefox  :</li>
-						<p><u>COMMAND</u>: sudo aptitude install mozilla-acroread<br></p>
-						<li>Installing Sun Java JRE :</li>
-						<p><u>COMMAND</u>: sudo aptitude install sun-java6-jre sun-java6-plugin sun-java6-fonts<br><hr><hr></p>
-					</ul>
-				</td></tr>
-				<tr><td bgcolor=#DDD>
-				<b>5 .<u><a href="http://www.linuxtent.com/?p=123&cpage=1">How to install Prolog in Ubuntu</a></u>:</b><br><br>
-					<ul>
-						<li>you need to install the package swi-prolog :</li>
-						<p><u>COMMAND</u>: sudo apt-get install swi-prolog<br><hr><hr></p>
-						
-					</ul>
-				</td></tr>
-				
-				
-				<tr><td bgcolor=#EEE>	
-					<b>6 .<u>Ubuntu 10.04 LTS (Lucid Lynx) Beta 2  </u>: </u></b><br>
-					<ul>
-						<li> Download :<a href="http://releases.ubuntu.com/releases/10.04">http://releases.ubuntu.com/releases/10.04</a> </li></ul>
-						<p><u>Release DATE</u>:29-04-2010<br>Some old release :</p>
-						<table width="100%">
-						<tr align="left"><th>Version </th><th>Code name </th><th>Release date</th></tr>
-						<tr><td> 7.04 </td><td> Feisty Fawn </td><td> 2007-04-19 </td></tr>
-						<tr><td> 7.10  </td><td> Gutsy Gibbon </td><td>  2007-10-18</td></tr>
-						<tr><td> 8.04  </td><td> Hardy Heron </td><td> 2008-04-24 </td></tr>
-						<tr><td> 8.10  </td><td>Intrepid Ibex </td><td>2008-10-30  </td></tr>
-						<tr><td>  9.04</td><td>  Jaunty Jackalope </td><td> 2009-04-23 </td></tr>
-						<tr><td> 9.10</td><td> KarmicKoala </td><td> 2009-10-29 </td><tr>
-						<tr><td>10.04 </td><td>Lucid Lynx</td><td> 2010-04-29</td></tr>
-						<tr><td> 10.10  </td><td> Maverick Meerkat  </td><td>  2010-10-28</td></tr>
-						</table><hr><hr><br></p>
-					
-				</td></tr>
-				</table>
+			</table>
 				
 			
 			

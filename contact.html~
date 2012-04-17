@@ -8,46 +8,50 @@
 	<meta name="keywords" content="keywords"/> 
 	<meta name="author" content="author"/> 
 	<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
-	<title>Rahul Jain | Contacts</title>
 	<script type="text/javascript" src="form.js"></script>
+	<title>Rahul Jain | Contacts</title>
 </head>
 
 <body>
 
 	<div class="container">
 		<script type="text/javascript" src="header.js"></script>
+		
 		<div class="main_right" >
 			<div align='center'><img src="img/4.jpg" width='90%'  align='center' border='2'></div><br>
 			<script type="text/javascript" src="right_sidebar.js"></script>	
 		</div>
+		
 		<div class="subnav">
 			<script type="text/javascript" src="left_sidebar.js"></script>
 		</div>
+		
 		<div class="main">
-		<div >
-			<table  width=100% CELLSPACING=2>
-				<tr><th align=center bgcolor=#DDD> CONTACTS :- </th></tr>
-				<tr><td bgcolor=#EEE>	
-					<b>Contact Address :</b><br><br>
-					&nbsp;<b>Local address </b> <br>
-					&nbsp;&nbsp;&nbsp;&nbsp;	Room No.112 ,Morvi Hostel,<br>
-					&nbsp;&nbsp;&nbsp;&nbsp;	IT-BHU , VARANASI ,UP -221005<br><br>
-					<b>Permanent Address :</b><br>
-					&nbsp;&nbsp;&nbsp;&nbsp;Jariha Mohalla ,Ward no-8,<br>
-					&nbsp;&nbsp;&nbsp;&nbsp;Rajakhera , Dholpur ,Raj.-328025<br><br><br>
-					<b>Email ID :</b><br><br>
-					&nbsp;&nbsp;&nbsp;&nbsp;<u>rahuljain.roy@gmail.com</u><br>
-					&nbsp;&nbsp;&nbsp;&nbsp;<u>rahul.jain.cse07@itbhu.ac.in</u><br><br>
-					
-					<b>Contact No. :</b><br>
-					&nbsp;&nbsp;&nbsp;&nbsp;<u>(+91)9889137358</u><br>
-					&nbsp;&nbsp;&nbsp;&nbsp;<u>(+91)8957561785</u><br><br><br>
-					
-					<br>
-					
-
-
-					<table  width=100% ><tr><th align=center bgcolor=#DDD> <b>GUEST BOOK : Add your Comment</b> </th></tr></table>
+			<div class="padded">
+				<table  width=100% CELLSPACING=2>
+					<tr><th align=center bgcolor=#CCC> CONTACTS :- </th></tr>
+					<tr><td bgcolor=#EEE>	
+						
+						<b>Contact Address :</b><br><br>
+						&nbsp;<b>Local address </b> <br>
+						<p>Room #5 ,Vishvasvarayya hostel,</p>
+						<p>IT-BHU , VARANASI ,UP -221005</p><br><br>
+						
+						<b>Permanent Address :</b><br>
+						<p>Jariha Mohalla ,Ward no-8,</p>
+						<p>Rajakhera , Dholpur ,Raj.-328025</p><br><br>
+						
+						<b>Email ID :</b><br>
+						<p><u><a href="mailto:rahuljain.roy@gmail.com">rahuljain.roy@gmail.com</a></u></p>
+						<p><u><a href="mailto:rahuljain.roy@gmail.com">rahuljain.roy@gmail.com</a></u></p><br>
+						
+						<b>Contact No. :</b><br>
+						<p>(+91)89-575-61785</p>
+						<p>(+91)87-360-51844<br><br>
+					</td></tr>
+				</table>
+				<table  width=100% >
+					<tr><th align=center bgcolor=#FFF> <b>GUEST BOOK : Add your Comment</b> 
 					<form onsubmit="return validate(this)" action="guest.php" method="POST" name="register_form" id="register_form">
 					<table CELLSPACING=5 width=100%>
 					
@@ -58,8 +62,8 @@
 					</table>
 					</form>
 			</table>
+			</div>
 		</div>
-	</div>
 	
 	<div class="clearer"><span></span></div>
 	<div class="footer">
