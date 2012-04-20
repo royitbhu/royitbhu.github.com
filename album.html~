@@ -7,7 +7,7 @@
 	<meta name="description" content="Rahul's personal websiten"/>
 	<meta name="keywords" content="rahul jain, itbhu,idd,cse,rahuljain.roy@gmail.com"/> 
 	<meta name="author" content="rahuljain.roy@gmail.com"/> 
-	<link rel="stylesheet" type="text/css" href="./css/default.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
 	
 	<script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.gallerax-0.2.js"></script>
