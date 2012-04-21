@@ -52,7 +52,7 @@
 						</ol>
 					</td></tr>
 					<tr><td bgcolor=#EEE>	
-						3 .<u>Some of the things to do immediately after installing ubuntu on your machine:</b><br>
+						3 .Some of the things to do immediately after installing ubuntu on your machine:</b><br>
 						<ol>
 							<li><i>Linux DC++ Client : sudo apt-get install linuxdcpp</li>
 							<li>Adobe Acrobat Reader : sudo aptitude install acroread acroread-plugins acroread-escrip</li>
