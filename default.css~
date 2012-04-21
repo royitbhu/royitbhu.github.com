@@ -32,7 +32,7 @@ li {
 }
 ol{
 	padding-bottom: 1em;
-	padding-top: .5em;
+	padding-top: 1em;
 	padding-left: 3em;
 	font: .9em Arial,Arial;
 }
@@ -68,7 +68,7 @@ h1,h2,h3 {color: #994;}
 	background: url(img/bgcontainer.gif) repeat-y;
 	background-size: 100%;
 	margin: 0 auto;
-	width: 80%;
+	width: 85%;
 	border: 12px solid #222;
 }
 
@@ -98,7 +98,7 @@ h1,h2,h3 {color: #994;}
 }
 .main_right {
 	float: right;
-	width: 20%;
+	width: 15%;
 	color: #CCC;
 	
 }
