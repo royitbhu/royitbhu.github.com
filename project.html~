@@ -7,7 +7,7 @@
 	<meta name="description" content="Rahul's personal websiten"/>
 	<meta name="keywords" content="rahul jain, itbhu,idd,cse,rahuljain.roy@gmail.com"/> 
 	<meta name="author" content="rahuljain.roy@gmail.com"/> 
-	<link rel="stylesheet" type="text/css" href="./css/default.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
 	<title>Rahul Jain | Projects</title>
 </head>
 
@@ -31,7 +31,7 @@
 				<tr><td bgcolor=#EEE>	
 					1 .<a href="https://github.com/the-codebreaker/Scaling-and-denosing" target="_blank"><u>Wavelet and PDE based approach for Image and Video Scaling and De-noising</a></u></b>
 					<ul>
-						<li><b>Project Profile </b>: <p>Implemented various scaling algorithms like bilinear, nearestneighbor , bicubic , and lanczos (sinc 3) with both static as well as dynamic (from video) images for different resolutions, and also applied Wavelet and PDE based methods to de-noise the resultant images and compare various results using different parameters(PSNR , MSE , CP , MSSIM ).</p></li>
+						<li><b>Project Profile </b>: Implemented various scaling algorithms like bilinear, nearestneighbor , bicubic , and lanczos (sinc 3) with both static as well as dynamic (from video) images for different resolutions, and also applied Wavelet and PDE based methods to de-noise the resultant images and compare various results using different parameters (PSNR , MSE , CP , MSSIM ).</li>
 						<li><b>Technology Used </b>:  OpenCV , Matlab </li>
 					</ul>
 				</td></tr>	
@@ -83,9 +83,10 @@
 		</div>
 	</div>
 	
-	<div class="clearer"><span></span></div>
+	<div class="clearer"></div>
 	<div class="footer">
 		<script type="text/javascript" src="./js/footer.js"></script>
+		<script type="text/javascript" src="./js/googleanalytics.js"></script>
 	</div>
 </div>
 </body>

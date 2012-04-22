@@ -27,13 +27,14 @@
 		
 		<div class="main">
 			<div class="padded">
-				<h1>Looks like the page you're after doesn't exist. </h1>
+				<div align='center'><img src="img/404.jpg" width='90%'  align='center' ></div><br>
 			</div>
 		</div>
 	
 	<div class="clearer"><span></span></div>
 	<div class="footer">
 		<script type="text/javascript" src="./js/footer.js"></script>
+		<script type="text/javascript" src="./js/googleanalytics.js"></script>
 	</div>
 </div>
 </body>

@@ -7,7 +7,7 @@
 	<meta name="description" content="Rahul's personal websiten"/>
 	<meta name="keywords" content="rahul jain, itbhu,idd,cse,rahuljain.roy@gmail.com"/> 
 	<meta name="author" content="rahuljain.roy@gmail.com"/> 
-	<link rel="stylesheet" type="text/css" href="./css/default.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
 	<title>Rahul Jain | Profile</title>
 </head>
 
@@ -100,6 +100,7 @@
 	<div class="clearer"><span></span></div>
 	<div class="footer">
 		<script type="text/javascript" src="./js/footer.js"></script>
+		<script type="text/javascript" src="./js/googleanalytics.js"></script>
 	</div>
 </div>
 </body>
