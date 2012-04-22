@@ -35,25 +35,23 @@
 					<img class="output" src="./gallery/images/1.jpg" alt="" />
 					<h1><span class="caption" >Me near Beach @ Goa</span></h1>
 					<ul class="thumbnails">
-						<li><img class="active" src="images/1.jpg" title="Near Beach ( Goa )" alt="" width="130" height="92" /></li>
-						<li><img src="./images/2.jpg" title="Nareli (Ajmer)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/3.jpg" title="Santa Monica ship (Goa)" alt="" width="130" height="92" /></li>				
-						<li><img src="./images/4.jpg" title="Beach (Goa)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/5.jpg" title="Sea (Goa)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/6.jpg" title="Boat (Goa)" alt="" width="130" height="92" /></li>						
-						<li><img src="./images/7.jpg" title="Random Pose (Goa)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/8.jpg" title="near BHU Gate  (Varanasi)" alt="" width="130" height="92" /></li>				
-						<li><img src="./images/9.jpg" title="in Pindari trip with Divakar (Pindari)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/10.jpg" title="in Hostel (BHU)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/11.jpg" title="Tajmahal (Agra)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/12.jpg" title="Temple (Sonagiri)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/13.jpg" title="Baagi of Chambal (Ambah)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/14.jpg" title="with friends in Pokhara (Nepal)" alt="" width="130" height="92" /></li>						
-						<li><img src="./images/15.jpg" title="Phewa Lake (Nepal)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/16.jpg" title="Annapurna Base Camp (Nepal)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/17.jpg" title="Nice schene at Phewa lake (Nepal)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/18.jpg" title="awarded Certificate by R.S.Sir (IT-BHU)" alt="" width="130" height="92" /></li>
-						<li><img src="./images/19.jpg" title="With Himanshu and Nitin (ABC,Nepal)" alt="" width="130" height="92" /></li>
+						<li><img class="active" src="images/1.jpg" title="Near Beach ( Goa )" alt="" /></li>
+						<li><img src="./images/2.jpg" title="Nareli (Ajmer)" alt=""  /></li>
+						<li><img src="./images/3.jpg" title="Santa Monica ship (Goa)" alt="" /></li>		
+						<li><img src="./images/4.jpg" title="Beach (Goa)" alt="" /></li>
+						<li><img src="./images/5.jpg" title="Sea (Goa)" alt=""/></li>
+						<li><img src="./images/6.jpg" title="Boat (Goa)" alt=""/></li>				
+						<li><img src="./images/7.jpg" title="Random Pose (Goa)" alt="" /></li>
+						<li><img src="./images/8.jpg" title="near BHU Gate  (Varanasi)" alt=""  /></li>	
+						<li><img src="./images/9.jpg" title="Pindari trip with Divakar (Pindari)" alt="" /></li>						<li><img src="./images/10.jpg" title="in Hostel (BHU)" alt=""  /></li>
+						<li><img src="./images/11.jpg" title="Tajmahal (Agra)" alt=""  /></li>
+						<li><img src="./images/12.jpg" title="Temple (Sonagiri)" alt="" /></li>
+						<li><img src="./images/13.jpg" title="Baagi of Chambal (Ambah)" alt="" /></li>
+						<li><img src="./images/14.jpg" title="with friends in Pokhara (Nepal)" alt=""/></li>						
+						<li><img src="./images/15.jpg" title="Phewa Lake (Nepal)" alt=""/></li>
+						<li><img src="./images/16.jpg" title="Annapurna Base Camp (Nepal)" alt=""  /></li>
+						<li><img src="./images/17.jpg" title="Nice schene at Phewa lake (Nepal)" alt=""  /></li>
+						<li><img src="./images/18.jpg" title="awarded Certificate by R.S.Sir (IT-BHU)" alt="" /></li>						<li><img src="./images/19.jpg" title="With Himanshu and Nitin (ABC,Nepal)" alt=""  /></li>
 					</ul>
 				<br class="clear" />
 				</div>
@@ -67,9 +65,10 @@
 			</div>
 		</div>
 	
-	<div class="clearer"><span></span></div>
+	<div class="clearer"></div>
 	<div class="footer">
 		<script type="text/javascript" src="./js/footer.js"></script>
+		<script type="text/javascript" src="./js/googleanalytics.js"></script>
 	</div>
 </div>
 </body>

@@ -68,7 +68,7 @@ h1,h2,h3 {color: #994;}
 	background: url(img/bgcontainer.gif) repeat-y;
 	background-size: 100%;
 	margin: 0 auto;
-	width: 85%;
+	width: 80%;
 	border: 12px solid #222;
 }
 
@@ -98,7 +98,7 @@ h1,h2,h3 {color: #994;}
 }
 .main_right {
 	float: right;
-	width: 15%;
+	width: 20%;
 	color: #CCC;
 	
 }
@@ -148,5 +148,5 @@ h1,h2,h3 {color: #994;}
 #gallery span.caption {display:block; margin:0;}
 #gallery ul.thumbnails {width:100%; list-style:none; margin:10px 0 5px 0; padding:0;}
 #gallery ul.thumbnails li {float:left; margin:0 10px 10px 0;}
-#gallery ul.thumbnails li img {width:100%;  border:solid 5px #ccc; cursor:pointer;}
+#gallery ul.thumbnails li img {width:75px; height:55px;  border:solid 5px #ccc; cursor:pointer;}
 #gallery ul.thumbnails li img.active {border:solid 5px #323232;}
