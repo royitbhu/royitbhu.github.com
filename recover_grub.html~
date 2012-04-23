@@ -4,7 +4,7 @@
 
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
-	<meta name="description" content="Rahul's personal websiten"/>
+	<meta name="description" content="restore ubuntu grub"/>
 	<meta name="keywords" content="rahul jain, itbhu,idd,cse,rahuljain.roy@gmail.com"/> 
 	<meta name="author" content="rahuljain.roy@gmail.com"/> 
 	<link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
@@ -28,23 +28,20 @@
 		<div class="main">
 			<div class="padded">
 				<table  width=100% CELLSPACING=2>
-					<tr><th align=center bgcolor=#CCC> simple steps on how to change the password using single user mode </th></tr>
+					<tr><th align=center bgcolor=#CCC> simple steps to recover grub in ubuntu </th></tr>
 					<tr><td bgcolor=#EEE>	
 						<ul>	
-							<li>Reboot the Ubuntu </li>						
-							<li>When grub is loading,press 'Esc' </li>				
-							<li>Choose 'Ubuntu kernel(recovery mode)' </li>		
-							<li>Press 'e' to edit the kernel parameter</li>
-	   						<li> Append 'single init=/bin/bash' to the kernel parameter </li>
-	   						<li>Press 'b' to boot from that particular kernel </li>					
-						<br>
-						You will enter single user mode . Your hard drive will be in read-only mode. Remount it in read-write mode using following command.<br><br>
-						
-							<li><i>"$ mount -o remount,rw /dev/sda1 "(drive name in which ubuntu is installed)</i> </li>
-							<li>Change your passwd  : <i>"$ passwd user"</i> </li>		
-							<li>Reboot your machine and enter newly changed password</li>
-	   						<li>Hurrey !!! Password has been changed </li>			
-	   					</ul>	
+							<li>Boot Live CD </li>						
+							<li>Open Terminal and Type <i>sudo grub</i> </li>				
+							<li>new type the following command : <i>"find /boot/grub/stage1"</i></li>
+							<li>If u get an error "File not found" then try : <i>"find /boot/grub/stage1"</i></li>
+	   						<li> Output look like this : (hd0,1)-->> "harddisk + boot partition numbers(my /boot is at /dev/sda7, which translates to hd0,6 for grub)"</li>
+	   						<li>Set it as a root device :<i>" grub> root (hd0,1)"</i> press enter </li>
+	   						<li>Install Grub :<i> "grub> setup (hd0)"</i></l>
+	   						<li>Exit Grub :<i> "grub> quit"</i></l>	  
+	   						<li>Now restart ur system</l>	  
+	   						<li>Hurrey !!! you just installed your grub :)</l>	  
+	   					</ul>
 					</td></tr>
 				</table>
 			</div>

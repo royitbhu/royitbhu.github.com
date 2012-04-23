@@ -29,6 +29,7 @@ ul {margin-left: 1.2em;}
 
 li {
 	list-style: circle;
+	margin-top:.5em;
 }
 ol{
 	padding-bottom: 1em;
@@ -97,7 +98,7 @@ h1,h2,h3 {color: #994;}
 	width: 65%;
 }
 .main_right {
-	float: left;
+	float: right;
 	width: 20%;
 	color: #CCC;
 	
