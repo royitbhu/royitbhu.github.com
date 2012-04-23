@@ -17,7 +17,7 @@
 		<script type="text/javascript" src="./js/header.js"></script>
 		
 		<div class="main_right" >
-			<div align='center'><img src="img/2.jpg" width='90%'  align='center' ></div><br>
+			<div align='center'><img src="img/rahuljain_2.jpg" width='90%'  align='center' ></div><br>
 			<script type="text/javascript" src="./js/right_sidebar.js"></script>	
 		</div>
 		
@@ -31,8 +31,12 @@
 					<tr><th align=center bgcolor=#f7f7f7> Tips/Help for ubuntu users : </th></tr>
 					<tr><td bgcolor=#DDD>
 						<ul>
-							<li>1. How to reset your ubuntu forgotten password <a href="#1" >Click here </a> </li>			
-							<li>2. How to restore ubuntu grub <a href="#2" >Click here </a> </li>													
+							<li>1. How to reset your ubuntu forgotten password <a href="#1" >Click here </a> </li>
+							<li>2. How to restore ubuntu grub <a href="#2" >Click here </a></li>
+							<li>3. How to Re-start System without Rebooting <a href="#3" >Click here </a></li>							
+							<li>4. How to Change Default Boot Options <a href="#4" >Click here </a></li>
+							<li>5. Auto Shutdown the System <a href="#5" >Click here </a></li>
+							<li>6. Ubuntu command line (terminal) using tips <a href="#6" >Click here </a></li>
 						</ul>
 					</td></tr>
 					<tr><td bgcolor=#FFF>	
@@ -67,6 +71,47 @@
 	   						<li>Exit Grub :<i> "grub> quit"</i></li>	  
 	   						<li>Now restart ur system</li>	  
 	   						<li>Hurrey !!! you just installed your grub :)</li>
+	   						<a href='#' >Back to Top</a>		  
+	   					</ol>
+					</td></tr>
+					<tr><td bgcolor=#FFF>
+						<a name="3" >3. Re-start System without Rebooting</a>	
+						<ol>	
+							<li>if system freezes, the mouse cursor can't move, neither pressing Ctrl+Alt+Delete can work , then shortcut key <i>Alt+PrintScreen+K </i> that can be used to bring back to the log-in screen immediately without the need to reboot the system.</li>									
+	   						<a href='#' >Back to Top</a>		  
+	   					</ol>
+					</td></tr>
+					<tr><td bgcolor=#EEE>
+						<a name="4" >4. Change Default Boot Options</a>	
+						<ol>	
+							When we install Ubuntu  is set to be the default operating system to boot up .This order can be changed easily with startup manager.<br><br>		
+							<li>Open Terminal </li>			
+							<li>Install startup manager using following command : <i>sudo apt-get install startupmanager</i> </li>			
+							<li>Go to : System > Administration > StartUp-Manager</li>
+							<li>Select the default operating system from the pull-down menu, click "Close" to perform post-configuration tasks</li>
+	   						<a href='#' >Back to Top</a>		  
+	   					</ol>
+					</td></tr>	
+					<tr><td bgcolor=#FFF>
+						<a name="5" >5. Auto Shutdown the System</a>	
+						<ol>	
+							To schedule a time for the system to shut down type the following command.<br><br>		
+							<li><i>"sudo shutdown -h hh:mm" </i> (here hh:mm = 22:10hr)</li>
+							<li><i>"sudo shutdown -h +m" </i>(here +m = 50 minutes)</li>	
+	   						<a href='#' >Back to Top</a>		  
+	   					</ol>
+					</td></tr>	
+					<tr><td bgcolor=#EEE>
+						<a name="6" >6.  Ubuntu command line (terminal) using tips</a>	
+						<ol>	
+							keyboard shortcuts you can use within terminal.<br><br>		
+							<li><i>"Ctrl-a": </i> Move to the start of the line </li>
+							<li><i>"Ctrl-e": </i> Move to the end of the line </li>	
+							<li><i>"!! ": </i> Execute last command in history </li>
+							<li><i>"!abc": </i> Execute last command in history beginning with abc </li>
+							<li><i>"Ctrl-r": </i>Incremental reverse search of history  </li>
+							<li><i>"^abc^xyz": </i> Replace first occurrence of abc with xyz in last command and execute it </li>
+							<li><i>"Ctrl-l": </i>Clear the screen leaving the current line at the top of the screen  </li>
 	   						<a href='#' >Back to Top</a>		  
 	   					</ol>
 					</td></tr>				

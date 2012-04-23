@@ -28,7 +28,7 @@
 		<div class="main">
 			<div class="padded">
 				<table  width=100% CELLSPACING=2>
-					<tr><th align=center bgcolor=#CCC> CONTACTS :- </th></tr>
+					<tr><th align=center bgcolor=#f7f7f7> CONTACTS :- </th></tr>
 					<tr><td bgcolor=#EEE>	
 						
 						<b>Contact Address :</b><br><br>

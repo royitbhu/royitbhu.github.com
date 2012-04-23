@@ -27,7 +27,7 @@
 			<div class="padded">
 			
 			<table  width=100% CELLSPACING=10 CELLPADDING=5>
-				<tr><th align=center bgcolor=#BBB> PROJECTS UNDERTAKEN :- </th></tr>
+				<tr><th align=center bgcolor=#f7f7f7> PROJECTS UNDERTAKEN :- </th></tr>
 				<tr><td bgcolor=#EEE>	
 					1 .<a href="https://github.com/the-codebreaker/Scaling-and-denosing" target="_blank"><u>Wavelet and PDE based approach for Image and Video Scaling and De-noising</a></u>
 					<ul>
