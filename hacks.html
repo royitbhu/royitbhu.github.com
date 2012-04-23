@@ -38,21 +38,6 @@
 					<tr><td bgcolor=#FFF>	
 						<a name="1" >1. simple steps on how to change the password using single user mode</a>
 						<ol>	
-							<li>Boot Live CD </li>						
-							<li>Open Terminal and Type <i>sudo grub</i> </li>				
-							<li>new type the following command : <i>"find /boot/grub/stage1"</i></li>
-							<li>If u get an error "File not found" then try : <i>"find /boot/grub/stage1"</i></li>
-	   						<li> Output look like this : (hd0,1)-->> "harddisk + boot partition numbers(my /boot is at /dev/sda7, which translates to hd0,6 for grub)"</li>
-	   						<li>Set it as a root device :<i>" grub> root (hd0,1)"</i> press enter </li>
-	   						<li>Install Grub :<i> "grub> setup (hd0)"</i></l>
-	   						<li>Exit Grub :<i> "grub> quit"</i></l>	  
-	   						<li>Now restart ur system</l>	  
-	   						<li>Hurrey !!! you just installed your grub :)</l>	  
-	   					</ol>
-					</td></tr>
-					<tr><td bgcolor=#EEE>
-						<a name="2" >2. simple steps on how to change the password using single user mode</a>	
-						<ol>	
 							<li>Reboot the Ubuntu </li>						
 							<li>When grub is loading,press 'Esc' </li>				
 							<li>Choose 'Ubuntu kernel(recovery mode)' </li>		
@@ -65,8 +50,25 @@
 							<li><i>"$ mount -o remount,rw /dev/sda1 "(drive name in which ubuntu is installed)</i> </li>
 							<li>Change your passwd  : <i>"$ passwd user"</i> </li>		
 							<li>Reboot your machine and enter newly changed password</li>
-	   						<li>Hurrey !!! Password has been changed </li>			
-	   					</ol>	
+	   						<li>Hurrey !!! Password has been changed </li>		
+	   						<a href='#' >Back to Top</a>	
+	   					</ol>
+					</td></tr>
+					<tr><td bgcolor=#EEE>
+						<a name="2" >2. simple steps on how to change the password using single user mode</a>	
+						<ol>	
+							<li>Boot Live CD </li>						
+							<li>Open Terminal and Type <i>sudo grub</i> </li>				
+							<li>new type the following command : <i>"find /boot/grub/stage1"</i></li>
+							<li>If u get an error "File not found" then try : <i>"find /boot/grub/stage1"</i></li>
+	   						<li> Output look like this : (hd0,1)-->> "harddisk + boot partition numbers(my /boot is at /dev/sda7, which translates to hd0,6 for grub)"</li>
+	   						<li>Set it as a root device :<i>" grub> root (hd0,1)"</i> press enter </li>
+	   						<li>Install Grub :<i> "grub> setup (hd0)"</i></li>
+	   						<li>Exit Grub :<i> "grub> quit"</i></l>	  
+	   						<li>Now restart ur system</li>	  
+	   						<li>Hurrey !!! you just installed your grub :)</li>
+	   						<a href='#' >Back to Top</a>		  
+	   					</ol>
 					</td></tr>				
 				</table>			
 			</div>

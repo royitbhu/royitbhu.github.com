@@ -51,10 +51,10 @@
 			</table>
 			<br><hr><hr><br>
 			<table  width=100% CELLSPACING=5>
-				<tr><th align=center bgcolor=#BBB> COMPUTER SKILL :-</th></tr>
+				<tr><th align=center bgcolor=#f7f7f7> COMPUTER SKILL :-</th></tr>
 				</table>
 				<table>
-				<tr><td >	
+				<tr><td bgcolor=#EEE>	
 					<b>Languages         : </b><br>  
 					<b>OS         :</b> <br>
 					<b>Web Designing   : </b><br>
@@ -69,8 +69,8 @@
 			</table>
 			<br><hr><hr><br>
 			<table  width=100% CELLSPACING=5>
-				<tr><th align=center bgcolor=#BBB> SCHOLASTIC ACHIEVEMENTS : :- </th></tr>
-				<tr><td >	
+				<tr><th align=center bgcolor=#f7f7f7> SCHOLASTIC ACHIEVEMENTS : :- </th></tr>
+				<tr><td bgcolor=#EEE>	
 					<ul>
 						<li>Qualified the Highly prestigious IIT-JEE Entrance Exam 2007, Rank  2551.</li>
 						<li>Secured 1st position in class XII in MBVB Sr. Sec. School,2006.</li>
@@ -83,7 +83,7 @@
 			</table>
 			<br><hr><hr><br>
 			<table  width=100% CELLSPACING=5>
-				<tr><th align=center bgcolor=#BBB> HOBBIES : :- </th></tr>
+				<tr><th align=center bgcolor=#f7f7f7> HOBBIES : :- </th></tr>
 				<tr><td bgcolor=#EEE>	
 					<ul>
 						<li>Watching TV series </li>
@@ -91,6 +91,7 @@
 						<li>Cycling.</li>
 						<li> Little bit Programing</li>
 					</ul>
+					<a href='#' align='right'>Back to Top</a>
 				</td></tr>	
 			</table>
 			
