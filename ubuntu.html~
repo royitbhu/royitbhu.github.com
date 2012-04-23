@@ -29,7 +29,7 @@
 			
 			<div class="padded">
 				<table  width=100% cellspacing="5" cellpadding="5">
-					<tr><th align=center bgcolor=#CCC>Some Important stuffs for Linux Geeks</th></tr>
+					<tr><th align=center bgcolor=#f7f7f7>Some Important stuffs for Linux Geeks</th></tr>
 					<tr><td bgcolor=#EEE>1 .Install libgraph library in GCC (Graphics.h)
 						<p>Step #1.Install the following in Synaptic Package Manager</p>
 						<ol>

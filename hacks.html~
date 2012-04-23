@@ -63,10 +63,10 @@
 							<li>If u get an error "File not found" then try : <i>"find /boot/grub/stage1"</i></li>
 	   						<li> Output look like this : (hd0,1)-->> "harddisk + boot partition numbers(my /boot is at /dev/sda7, which translates to hd0,6 for grub)"</li>
 	   						<li>Set it as a root device :<i>" grub> root (hd0,1)"</i> press enter </li>
-	   						<li>Install Grub :<i> "grub> setup (hd0)"</i></l>
-	   						<li>Exit Grub :<i> "grub> quit"</i></l>	  
-	   						<li>Now restart ur system</l>	  
-	   						<li>Hurrey !!! you just installed your grub :)</l>
+	   						<li>Install Grub :<i> "grub> setup (hd0)"</i></li>
+	   						<li>Exit Grub :<i> "grub> quit"</i></li>	  
+	   						<li>Now restart ur system</li>	  
+	   						<li>Hurrey !!! you just installed your grub :)</li>
 	   						<a href='#' >Back to Top</a>		  
 	   					</ol>
 					</td></tr>				
