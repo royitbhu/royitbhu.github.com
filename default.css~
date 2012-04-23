@@ -97,7 +97,7 @@ h1,h2,h3 {color: #994;}
 	width: 65%;
 }
 .main_right {
-	float: right;
+	float: left;
 	width: 20%;
 	color: #CCC;
 	
@@ -148,5 +148,5 @@ h1,h2,h3 {color: #994;}
 #gallery span.caption {display:block; margin:0;}
 #gallery ul.thumbnails {width:100%; list-style:none; margin:10px 0 5px 0; padding:0;}
 #gallery ul.thumbnails li {float:left; margin:0 10px 10px 0;}
-#gallery ul.thumbnails li img {width:75px; height:55px;  border:solid 5px #ccc; cursor:pointer;}
+#gallery ul.thumbnails li img {width:80px; height:60px;  border:solid 5px #ccc; cursor:pointer;}
 #gallery ul.thumbnails li img.active {border:solid 5px #323232;}

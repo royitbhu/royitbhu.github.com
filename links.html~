@@ -17,7 +17,7 @@
 		<script type="text/javascript" src="./js/header.js"></script>
 		
 		<div class="main_right" >
-			<div align='center'><img src="img/2.jpg" width='90%'  align='center' ></div><br>
+			<div align='center'><img src="img/2.jpg" width='90%' border='2' ></div><br>
 			<script type="text/javascript" src="./js/right_sidebar.js"></script>	
 		</div>
 		
@@ -32,7 +32,11 @@
 					<tr><td bgcolor=#EEE>
 						<br><b>1 .<u>My geek friends :</u></b><br>
 						<ul>
-							<li>Rohit Yadav  :  <a href="http://rohityadav.in" target="_blank">rohityadav.in </a> </li>				<li>Saket Saurabh  :  <a href="http://saketsaurabh.in" target="_blank"> saketsaurabh.in </a> </li>				<li>Showstopper  :  <a href="http://theshowstopper.in" target="_blank">theshowstopper.in </a> </li>		<li>Abhinav Kushwaha  :  <a href="http://akush.in" target="_blank"> akush.in  </a> </li>						</ul>
+							<li>Rohit Yadav  :  <a href="http://rohityadav.in" target="_blank">rohityadav.in </a> </li>						
+							<li>Saket Saurabh  :  <a href="http://saketsaurabh.in" target="_blank"> saketsaurabh.in </a> </li>				
+							<li>Showstopper  :  <a href="http://theshowstopper.in" target="_blank">theshowstopper.in </a> </li>		
+							<li>Abhinav Kushwaha  :  <a href="http://akush.in" target="_blank"> akush.in  </a> </li>						
+						</ul>
 					</td></tr>
 					<tr><td bgcolor=#FFF>
 						<br><b>2 .<u>Some coding Site Links :</u></b><br>
@@ -68,9 +72,10 @@
 			</div>
 		</div>
 	
-	<div class="clearer"><span></span></div>
+	<div class="clearer"></div>
 	<div class="footer">
 		<script type="text/javascript" src="./js/footer.js"></script>
+		<script type="text/javascript" src="./js/googleanalytics.js"></script>
 	</div>
 </div>
 </body>

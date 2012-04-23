@@ -31,7 +31,7 @@
 				<tr><td bgcolor=#EEE>	
 					1 .<a href="https://github.com/the-codebreaker/Scaling-and-denosing" target="_blank"><u>Wavelet and PDE based approach for Image and Video Scaling and De-noising</a></u></b>
 					<ul>
-						<li><b>Project Profile </b>: Implemented various scaling algorithms like bilinear, nearestneighbor , bicubic , and lanczos (sinc 3) with both static as well as dynamic (from video) images for different resolutions, and also applied Wavelet and PDE based methods to de-noise the resultant images and compare various results using different parameters (PSNR , MSE , CP , MSSIM ).</li>
+						<li><b>Project Profile </b>: Implemented various scaling algorithms like bilinear, nearestneighbor , bicubic , and lanczos (sinc 3) with both static as well as dynamic (from video) images for different resolutions, and also applied Wavelet and PDE based methods to de-noise the resultant images and compare various results using different parameters (PSNR,MSE,CP,MSSIM).</li>
 						<li><b>Technology Used </b>:  OpenCV , Matlab </li>
 					</ul>
 				</td></tr>	

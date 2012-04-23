@@ -17,7 +17,7 @@
 		<script type="text/javascript" src="./js/header.js"></script>
 		
 		<div class="main_right" >
-			<div align='center'><img src="img/8.jpg" width='90%'  align='center'border='2' ></div><br>
+			<div align='center'><img src="img/8.jpg" width='90%'  border='2' ></div><br>
 			<script type="text/javascript" src="./js/right_sidebar.js"></script>	
 		</div>
 		
@@ -97,7 +97,7 @@
 		</div>
 	</div>
 	
-	<div class="clearer"><span></span></div>
+	<div class="clearer"></div>
 	<div class="footer">
 		<script type="text/javascript" src="./js/footer.js"></script>
 		<script type="text/javascript" src="./js/googleanalytics.js"></script>
