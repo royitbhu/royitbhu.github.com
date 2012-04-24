@@ -17,7 +17,7 @@
 		<script type="text/javascript" src="./js/header.js"></script>
 		
 		<div class="main_right" >
-			<div align='center'><img src="img/1.jpg" width='90%' border='1' ></div><br>
+			<div align='center'><img src="img/rahuljain_1.jpg" width='90%' border='1' ></div><br>
 			<script type="text/javascript" src="./js/right_sidebar.js"></script>	
 		</div>
 		
@@ -65,7 +65,7 @@
 			</div>
 		</div>
 		
-		<div class="clearer"></div>
+		<div class="clearer"><span></span></div>
 		
 		<div class="footer">
 			<script type="text/javascript" src="./js/footer.js"></script>
