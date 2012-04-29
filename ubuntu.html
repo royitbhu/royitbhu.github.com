@@ -29,7 +29,7 @@
 			
 			<div class="padded">
 				<table  width=100% cellspacing="5" cellpadding="5">
-					<tr><th align=center bgcolor=#f7f7f7>Some Important stuffs for Linux Geeks</th></tr>
+					<tr><th align=center bgcolor=#f7f7f7><h3><i>Some Important stuffs for Linux Geeks</h3></i></th></tr>
 					<tr><td bgcolor=#EEE>1 .Install libgraph library in GCC (Graphics.h)
 						<p>Step #1.Install the following in Synaptic Package Manager</p>
 						<ol>
@@ -58,15 +58,26 @@
 							<li>Adobe Acrobat Reader : sudo aptitude install acroread acroread-plugins acroread-escrip</li>
 							<li>Macromedia Flash : sudo apt-get install flashplugin-nonfree</li>
 							<li>Acroread plugin for firefox : sudo aptitude install mozilla-acroread</li>
-							<li>Installing Sun Java JRE : sudo aptitude install sun-java6-jre sun-java6-plugin sun-java6-fonts<i></li>
+							<li>Installing Sun Java JRE : sudo aptitude install sun-java6-jre sun-java6-plugin sun-java6-fonts</i></li>
 						</ol>
 					</td></tr>
 					<tr><td bgcolor=#FFF>	
 						4 .Install Gnome classic theme in 11.04+ (who dont like <u>Gnome Unity</u>)</b><br>
 						<ol>
 							<li><i>Command : sudo apt-get install gnome-session-fallback</li>
-							<li>To make Gnome Classic as default : sudo /usr/lib/lightdm/lightdm-set-defaults -s gnome-classic<i></li>
+							<li>To make Gnome Classic as default : sudo /usr/lib/lightdm/lightdm-set-defaults -s gnome-classic</i></li>
 							
+						</ol>
+					</td></tr>
+					<tr><td bgcolor=#EEE>	
+						5 .Install all the packages/softwares from old ubuntu to newly <u>installed Ubuntu</u>)</b><br>
+						<ol>
+							<li>If you want to switch to newly released ubuntu and need all the package/software which are currently installed ubuntu.then you can do two things :</li>
+							<li>1. Normal upgrade: <b><i>sudo apt-get dist-upgrade</b></i></li>
+							<li>2. Install new released ubuntu : for this you will have to do 3 things </li>
+							<li>A. Get  list  of package selections from old ubuntu : <b><i>dpkg --get-selections > package.txt</b></i></li>					
+							<li>B. Set package selections using file package.txt in newly installed ubuntu<b><i>dpkg --set-selections < package.txt</b></i></li>
+							<li>C. Now install these package using following : <b><i>sudo apt-get dselect-upgrade </b></i></li>					
 						</ol>
 					</td></tr>
 			</table>
