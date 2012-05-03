@@ -12,3 +12,4 @@ document.write("<ul>");
 		document.write("<li><a href='contact.html'>Contact</a></li>");
 	document.write("</ul>");
 document.write("<a href='http://github.com/royitbhu' target='_blank'><img style='position: absolute; top: 0; left: 0; border: 0;' src='img/git.png' alt='Fork me on GitHub'></a>");
+

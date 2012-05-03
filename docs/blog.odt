@@ -1,0 +1,107 @@
+﻿Blog post :
+
+1.Hello World !! 
+Hello world !!
+Welcome to the Rahul jain's blog .
+I hope , this blog is helpful for you .
+
+For more visit to : http://rahuljain.org
+Contact me @ : rahuljain.roy@gmail.com
+Posted by Rahul jain at 11:08 AM 0 comments 
+Email ThisBlogThis!Share to TwitterShare to Facebook
+Labels: bhu, iit, itbhu, itbhu.ac.in, rahul jain, rahuljain.org, rahuljain.roy, royitbhu 
+Location: Varanasi, Uttar Pradesh, India 
+
+
+2.Friday, April 20, 2012
+Install libgraph library in GCC 
+Step #1.Install the following in Synaptic Package Manager
+libsdl-image1.2 
+libsdl-image1.2-dev 
+guile-1.8-dev 
+guile-1.8  
+Step #2. Download and install libgraph then
+./configure 
+sudo make 
+sudo make install 
+Step #3  Include graphics.h in your C program . Initialize the graphics system by
+int gd=DETECT, gm=VGAMAX; 
+initgraph(&gd, &gm, NULL); 
+
+Step #4 you need to copy all the libgraph shared files from /usr/local/lib to /usr/lib
+ sudo cp /usr/local/lib/libgraph.* /usr/lib 
+
+Now Compile the program  using following command : gcc filename.c -lgraph
+Posted by Rahul jain at 12:15 PM 0 comments 
+Email ThisBlogThis!Share to TwitterShare to Facebook
+Labels: C, C++, graphics, graphics.h, libgraph, ubuntu 
+Location: Varanasi, Uttar Pradesh, India 
+
+
+3.Sunday, April 22, 2012
+What if miss type 'ls' to 'sl' 
+'ls' is  the most used command. It happens many times when we miss type  commands like 'ls' to 'sl'. It gives an error like this..
+bash : sl : command not found 
+ So  developer created another command  called 'sl' which is nothing but just a UNIX game . 'sl' can be installed using following command :
+sudo apt-get install sl 
+ now next time when you miss type 'ls' to 'sl' , you will see a steam locomotive passing by your screen, something like this:
+
+
+
+Posted by Rahul jain at 10:23 AM 0 comments
+Email ThisBlogThis!Share to TwitterShare to Facebook
+Labels: command, ls, rahuljain.org, sl, ubuntu 
+Location: Varanasi, Uttar Pradesh, India 
+
+
+
+4.Wednesday, April 25, 2012
+Convert Videos with VLC Media Player 
+As we all know that  VLC media player is the most used media player ,which support all most all audio/video codec. It is available for Windows / Mac OS X / Linux and other UNIX based OS. 
+Many times we need to convert video from one format to another(ex. AVI ->MP4) we can use VLC  to convert videos. Many people are unaware of this feature of VLC .
+
+Follow these steps to convert videos :
+
+1. Launch VLC media player and click on  Media > Convert / Save. 
+2. Click on Add  button to browse  and select the video that you want to convert. 
+3. Click on Convert/Save. 
+4. Browse the destination path for converted video and enter file name by which you want to save it. 
+5. Click on Start 
+Demo :
+http://www.youtube.com/watch?v=5pnkGrTbjwc
+
+Posted by Rahul jain at 11:49 AM 0 comments 
+Email ThisBlogThis!Share to TwitterShare to Facebook
+Labels: rahuljain.org, ubunu, video convert, videos, VLC 
+Location: Varanasi, Uttar Pradesh, India 
+5. Monday, April 30, 2012
+Unlimited Storage on Google Picasa Web 
+Use Google Picasa to store unlimited photos and videos
+Picasa Web provide 1GB of free storage for images and videos but it can be converted into unlimited space if we follow some constraints.
+1. If photo size is up to 2048 x 2048 pixels then space taken by photo does not take any space on picasaweb. i.e. it won't count towards your free storage(1 GB) quota. 
+2. Videos up to 15 minutes also won't count towards your free storage quota 
+3. Use Picasa software to upload photo albums on picasaweb because it automatically resized all the images into free size limit (2048 x 2048 pixels). 
+4. Once you reach your storage limit, any new photos you upload to picasaweb larger than the free size limit will be automatically resized to 2048 pixels. 
+ I have uploaded aprox 15 GB of images and videos on picasaweb  and still total space used is 40 MB . \m/ \m/ \m/
+Posted by Rahul jain at 2:49 PM 0 comments 
+Email ThisBlogThis!Share to TwitterShare to Facebook
+Labels: free storage, google, picasa, picasaweb, unlimited storage 
+Location: Varanasi, Uttar Pradesh, India 
+
+
+6.Wednesday, May 2, 2012
+Get all package/library to newly installed ubuntu 
+
+If you want to switch to newly released ubuntu and need all the package/softwares which are installed in your ubuntu then follow these steps :
+1. Get list of package selections from old ubuntu : dpkg --get-selections > package.txt 
+2. Set package selections using file package.txt in newly installed ubuntudpkg --set-selections < package.txt 
+3. Now install these package using following : sudo apt-get dselect-upgrade  
+ Hurray !! Enjoy the new ubuntu with all your needed package/software.
+
+ 
+Posted by Rahul jain at 6:07 AM 0 comments
+Email ThisBlogThis!Share to TwitterShare to Facebook
+Labels: command, ubuntu, ubuntu release.package installation, upgrade 
+Location: Varanasi, Uttar Pradesh, India 
+
+7.
