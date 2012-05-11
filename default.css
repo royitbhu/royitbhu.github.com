@@ -27,17 +27,17 @@ ul {
 }
 ul {margin-left: 1.2em;}
 
-li {
-	list-style: circle;
 
-}
 ol{
 	padding-bottom: 1em;
 	padding-top: 1em;
 	padding-left: 3em;
 	font: .9em Arial,Arial;
 }
-.main li {list-style-image: url(img/li.gif);}
+.main li {
+	list-style-image: url(img/li.gif);
+		
+}
 
 h1 {font-size: 1.2em;}
 
