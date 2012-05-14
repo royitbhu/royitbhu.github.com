@@ -49,18 +49,23 @@
 						<p>(+91)87-360-51844<br><br>
 					</td></tr>
 				</table>
+				
 				<table  width=100% >
 					<tr><th align=center bgcolor=#FFF> <h3><i><b>GUEST BOOK : Add your Comment</b></h3></i> 
-					<form onsubmit="return validate(this)" action="guest.php" method="POST" name="register_form" id="register_form">
-					<table CELLSPACING=5 width=100%>
-					
-					<tr><td>	Name :</td> <td><input type="text" size="20" id="name" name="name"></td></tr>
-					<tr><td>	Email ID* : </td><td><input type="text" size="20" id="email" name="email"></td></tr>
-					<tr><td>	Message :</td><td> <TEXTAREA NAME="comments" name="comments" COLS=20 ROWS=6></TEXTAREA></td></tr>
-					<tr><td></td><td><input type="submit" name="submit" value="Submit Comment"></td></tr>				
-					</table>
+					<FORM METHOD="POST" ACTION="mailto:rahul@rahuljain.org">
+
+						<table CELLSPACING=5 width=100%>				
+							<tr><td>	Name :</td> <td><input type="text" size="20" id="name" name="name"></td></tr>
+							<tr><td>	Email ID : </td><td><input type="text" size="20" id="email" name="email"></td></tr>
+							<tr><td>	Message :</td><td> <TEXTAREA NAME="comment" COLS=20 ROWS=6></TEXTAREA></td></tr>
+							<tr><td></td>	<td >	<INPUT TYPE=submit VALUE="Send it!"><INPUT TYPE=reset VALUE="Start over"></td></tr>
+						</table>
+
+					<B><br>Thanks for your Comment :)</B><br>
 					</form>
-			</table>
+				</table>
+				
+				</FORM>
 			</div>
 		</div>
 	
