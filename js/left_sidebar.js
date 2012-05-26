@@ -5,7 +5,6 @@ document.write("<ul>");
 		document.write("<li><a href='project.html'>Work</a></li>");
 		document.write("<li><a href='fun.html'>Fun</a></li>");
 		document.write("<li><a href='album.html' >Photos</a></li>");
-		document.write("<li><a href='ubuntu.html'>Ubuntu stuff</a></li>");
 		document.write("<li><a href='links.html'>Links</a></li>");
 		document.write("<li><a href='http://royitbhu.blogspot.com' target='_blank'>Blog</a></li>");
 		document.write("<li><a href='contact.html'>Contact</a></li>");
